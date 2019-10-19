@@ -1,0 +1,151 @@
+main {
+  color: #333;
+}
+
+.aboutus {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 80px 0;
+}
+
+.aboutus-text {
+  width: 400px;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.advantages {
+  padding: 80px 0;
+}
+
+.advantages .row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.advantages .title-primary {
+  margin-bottom: 50px;
+}
+
+.advantages-item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc(33.33333% - 30px);
+  max-width: 350px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .advantages-item {
+    width: calc(100% - 30px);
+  }
+}
+
+.advantages-icon {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.advantages-title {
+  font-size: 28px;
+  margin: 15px 0 25px 0;
+}
+
+.advantages-text {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.advantages .ps {
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .advantages {
+    padding: 50px 0;
+  }
+  .advantages .title-primary {
+    margin-bottom: 30px;
+  }
+  .advantages-item {
+    margin-bottom: 30px;
+  }
+  .advantages-title {
+    font-size: 23px;
+    margin: 10px 0 20px 0;
+  }
+  .advantages-text {
+    font-size: 16px;
+  }
+}
+
+.trust {
+  padding: 80px 0;
+}
+
+.trust .row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.trust .title-primary {
+  margin-bottom: 50px;
+}
+
+.trust-item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc(33.33333% - 30px);
+  max-width: 350px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .trust-item {
+    width: calc(100% - 30px);
+  }
+}
+
+.trust-icon {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.trust-title {
+  font-size: 28px;
+  margin: 15px 0 25px 0;
+}
+
+.trust-text {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+@media screen and (max-width: 768px) {
+  .trust {
+    padding: 50px 0;
+  }
+  .trust .title-primary {
+    margin-bottom: 30px;
+  }
+  .trust-item {
+    margin-bottom: 30px;
+  }
+  .trust-title {
+    font-size: 23px;
+    margin: 10px 0 20px 0;
+  }
+  .trust-text {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
