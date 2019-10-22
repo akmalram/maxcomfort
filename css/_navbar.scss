@@ -1,4 +1,5 @@
 @mixin navbar($navbarHeight, $containerWidth) {
+    overflow: hidden;
     .navbar {
         background: #fff;
         width: 100%;

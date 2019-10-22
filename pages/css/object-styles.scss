@@ -1,0 +1,56 @@
+@import '../../css/navbar';
+@import '../../css/smart-grid';
+
+header {
+    @include navbar(60px, 1140px);
+}
+
+// Main Main Main
+
+.object {
+
+    &-title {
+        font-size: 42px;
+        margin: 40px 0;
+    }
+
+    &-gallery {
+        .row {
+            justify-content: space-evenly;
+        }
+        .photo {
+            @include col();
+            @include size(6);
+            @include size-sm(12);
+            @include size-xs(24);
+            max-width: 300px;
+
+            margin-bottom: 30px;
+            overflow: hidden;
+
+            img {
+                border-radius: 5px;
+            }
+        }
+    }
+
+    &-text {
+        font-size: 25px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    .btn-primary {
+        margin-top: 50px;
+    }
+
+    @include xs-block {
+        &-title {
+            font-size: 32px;
+            text-align: center;
+        }
+        &-text {
+            font-size: 20px;
+        }
+    }
+}

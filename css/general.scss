@@ -91,31 +91,15 @@ img {
 }
 
 .btn-primary {
-    background-color: #2379be;
-    border: 2px solid #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    background: #333;
+    border-radius: 5px;
+    font-size: 18px;
     color: #fff;
-    padding: 11px 40px;
-    cursor: pointer;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
-    font-size: 30px;
+    transition: background-color .3s;
 
     &:hover {
-        background: #fff;
-        color: #2379be;
-    }
-
-    &:focus {
-        outline: none;
-    }
-}
-
-.btn-primary.white {
-    background-color: #fff;
-    color: #2379be;
-
-    &:hover {
-        background: #92bddf;
-        border-color: #92bddf;
+        background: rgb(90, 86, 86);
     }
 }

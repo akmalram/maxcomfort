@@ -177,33 +177,17 @@ img {
 }
 
 .btn-primary {
-  background-color: #2379be;
-  border: 2px solid #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  background: #333;
+  border-radius: 5px;
+  font-size: 18px;
   color: #fff;
-  padding: 11px 40px;
-  cursor: pointer;
-  border-radius: 50px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  font-size: 30px;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
 }
 
 .btn-primary:hover {
-  background: #fff;
-  color: #2379be;
-}
-
-.btn-primary:focus {
-  outline: none;
-}
-
-.btn-primary.white {
-  background-color: #fff;
-  color: #2379be;
-}
-
-.btn-primary.white:hover {
-  background: #92bddf;
-  border-color: #92bddf;
+  background: #5a5656;
 }
 /*# sourceMappingURL=general.css.map */
